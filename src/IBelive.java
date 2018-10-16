@@ -49,13 +49,15 @@ public class IBelive extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(82, 82, 82)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(Maker)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(DaLine, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(107, 107, 107)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Maker)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(121, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(DaLine, javax.swing.GroupLayout.PREFERRED_SIZE, 276, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -65,8 +67,8 @@ public class IBelive extends javax.swing.JFrame {
                 .addGap(101, 101, 101)
                 .addComponent(Maker)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
-                .addComponent(DaLine, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(22, 22, 22))
+                .addComponent(DaLine, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -89,7 +91,7 @@ public class IBelive extends javax.swing.JFrame {
         }
         
         else if (quoteNum == 2) {
-            DaLine.setText("Another Happy Quote:");
+            DaLine.setText("There is always a light at the end of the tunnel:");
         }
         
         else if (quoteNum == 3) {
@@ -101,11 +103,19 @@ public class IBelive extends javax.swing.JFrame {
         }
         
         else if (quoteNum ==5) {
-            DaLine.setText("Damm God is that copying or paying homage:");
+            DaLine.setText("Damm dog is that copying or paying homage:");
            
             }
         else if (quoteNum == 6) {
             DaLine.setText("Dont Worry Just be Happy:");
+        }
+        
+        else if (quoteNum == 7)  {
+            DaLine.setText("A smile can change anyone's day:");
+        }
+        
+        else if (quoteNum == 8)  {
+            DaLine.setText("You are worthy of happiness:");
         }
 
     }//GEN-LAST:event_MakerActionPerformed
